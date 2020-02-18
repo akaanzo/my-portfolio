@@ -43,7 +43,7 @@ function Other() {
           />
           <Project
             logo={UrbanLogo()}
-            title="Urban Planning for Engineers Notes "
+            title="Urban Planning for Engineers "
             abstract="Lorem Ipsum"
             link={UrbanLink}
           />

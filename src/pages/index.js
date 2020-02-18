@@ -27,9 +27,9 @@ export default class App extends React.Component {
         <Section >
           <Other />
         </Section>
-        <Section>
-          <Writing />
-        </Section>
+{/*        <Section>
+         <Writing />
+        </Section> */}
         <Footer />
       </GlobalWrapper>
     )
