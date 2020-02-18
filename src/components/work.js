@@ -5,15 +5,17 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
-import KellerkindLogo from 'img/kellerkindlogo'
-import PalettteAppLogo from 'img/palettteapplogo'
-import LifeTimeLogo from 'img/lifetimelogo'
-import BamLogo from 'img/bamlogo'
+import StructuralSafetyLogo from 'img/structuralSafety'
+import AqueductLogo from 'img/aqueduct'
+import RainfallLogo from 'img/rainfall'
+import SWMMLogo from 'img/swmm'
 
-const LifeTimeLink = <Link to="/lifetime">Read More</Link>
-const PalettteLink = <Link to="/palettteapp">Read More</Link>
-const KellerkindLink = <Link to="/kellerkind">Read More</Link>
-const BamLink = <Link to="/bam">Read More</Link>
+
+const AqueductLink = <a href="https://github.com/anzo559/aqueduct.git" target="_blank" rel="noopener noreferrer">Read More on GitHub</a>
+const SWMMLink = <span> <a href="https://github.com/anzo559/stormwater-drainage-network.git" target="_blank" rel="noopener noreferrer">Read More on GitHub</a> <br/> <a href="https://osf.io/ygh7q/" target="_blank" rel="noopener noreferrer">Download easily all material from OSF</a> </span>
+const RainfallLink = <a href="https://github.com/anzo559/rainfall-analysis.git" target="_blank" rel="noopener noreferrer"> Read More on GitHub </a>
+const StructuralSafetyLink = <a href="https://github.com/anzo559/structural-safety" target="_blank" rel="noopener noreferrer">Read More on GitHub</a>
+
 
 function Work() {
   return (
@@ -23,28 +25,28 @@ function Work() {
       rightColumn={
         <Fragment>
           <Project
-            logo={LifeTimeLogo()}
-            title="LifeTime"
-            abstract="A digital health solution facilitating medical data exchange."
-            link={LifeTimeLink}
+          logo={StructuralSafetyLogo()}
+          title="Structural Safety"
+          abstract="Structural safety project about calculating continuous beam and two different columns of a commercial building. Whole project has been developed following italian law about construction (NTC 2018, similar to EuroCodes)."
+          link={StructuralSafetyLink}
           />
           <Project
-            logo={PalettteAppLogo()}
-            title="Palettte App"
-            abstract="An app that allows you to build, analyze and edit smooth color palettes."
-            link={PalettteLink}
+            logo={AqueductLogo()}
+            title="Aqueduct"
+            abstract="An aqueduct system project developed using QGIS, QEpanet and Epanet softwares."
+            link={AqueductLink}
           />
           <Project
-            logo={KellerkindLogo()}
-            title="Kellerkind"
-            abstract="A social event company organizing two festivals for electronic music and art with ~20.000 yearly visitors north of munich."
-            link={KellerkindLink}
+          logo={RainfallLogo()}
+          title="Rainfall Analysis"
+          abstract="Jupyter Notebooks to study rainfall data of meteorogical station based in Centa San Nicolò (IT) and develop the so called LSPP. Results have been used to dimensioning the stormwater drainage network."
+          link={RainfallLink}
           />
           <Project
-            logo={BamLogo()}
-            title="Bäm"
-            abstract="Climbing products and other stuff that gives you the bäm effect."
-            link={BamLink}
+            logo={SWMMLogo()}
+            title="Stormwater Drainage Network"
+            abstract="Calculate and design of a stormwater drainage network. Have been used Jupyter Notebook for calculus and SWMM for modeling."
+            link={SWMMLink}
           />
         </Fragment>
       }
