@@ -6,7 +6,7 @@ const UrbanLogo = (props) => {
       id="prefix__Livello_1"
       x={0}
       y={0}
-      viewBox="0 0 110 110"
+      viewBox="0 0 120 120"
       xmlSpace="preserve"
       {...props}
     >
