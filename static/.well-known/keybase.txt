@@ -1,0 +1,109 @@
+://keybase.io/anzo559
+
+--------------------------------------------------------------------
+
+
+
+I hereby claim:
+
+
+
+  * I am an admin of https://matteofranzoi.me
+
+  * I am anzo559 (https://keybase.io/anzo559) on keybase.
+
+  * I have a public key ASCFnH8TnoWJkoq7gOW_CLISeUgp13Pr2hneLND0jRPtzQo
+
+
+
+To do so, I am signing this object:
+
+
+
+{
+
+  "body": {
+
+    "key": {
+
+      "eldest_kid": "0120859c7f139e8589928abb80e5bf08b212794829d773ebda19de2cd0f48d13edcd0a",
+
+      "host": "keybase.io",
+
+      "kid": "0120859c7f139e8589928abb80e5bf08b212794829d773ebda19de2cd0f48d13edcd0a",
+
+      "uid": "f2fa59d10402ed6efd1da0ffce347319",
+
+      "username": "anzo559"
+
+    },
+
+    "merkle_root": {
+
+      "ctime": 1567441463,
+
+      "hash": "6fcb40616b4e83a9bbc1d4ffc9139b7864e3e7c607573dd3df22487cccdfd5eca436c8ac5fcaa8baf65a4bb86c3396f421669c9effda1eebff09cc05c3647d89",
+
+      "hash_meta": "8397f3a8f7851b836563b693e278bb80216c9afb8fec94e98302099056378f30",
+
+      "seqno": 6152377
+
+    },
+
+    "service": {
+
+      "entropy": "6osvmi35BZPUuksxtlrcTp+O",
+
+      "hostname": "matteofranzoi.me",
+
+      "protocol": "https:"
+
+    },
+
+    "type": "web_service_binding",
+
+    "version": 2
+
+  },
+
+  "client": {
+
+    "name": "keybase.io go client",
+
+    "version": "4.3.0"
+
+  },
+
+  "ctime": 1567441477,
+
+  "expire_in": 504576000,
+
+  "prev": "97a7d31eedc6845c6fc901c45c25caeb224b54d398b9512c016687536e20a8ef",
+
+  "seqno": 7,
+
+  "tag": "signature"
+
+}
+
+
+
+which yields the signature:
+
+
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghZx/E56FiZKKu4DlvwiyEnlIKddz69oZ3izQ9I0T7c0Kp3BheWxvYWTESpcCB8Qgl6fTHu3GhFxvyQHEXCXK6yJLVNOYuVEsAWaHU24gqO/EICmz1WJdS01dYFLPCnkg3uHzgixsIKUkqoN22zaHvx5GAgHCo3NpZ8RAz5qwdSOIKPjNbukslXgge+JjV0nUZqPY2r1hAChONrmei7jtnJpt0FLK9Z1VhXBLnfLFr+CuqGD57Lm7eqgqAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPptwysUIEvRqxsI8GWnZuTofHVg0EknqSkhPZLUYObCo3RhZ80CAqd2ZXJzaW9uAQ==
+
+
+
+And finally, I am proving ownership of this host by posting or
+
+appending to this document.
+
+
+
+View my publicly-auditable identity here: https://keybase.io/anzo559
+
+
+
+==================================================================

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: matteofranzoi.me
+Token: 2f2e20be5207a2ffbcd02a6ff84b0bc051bd8ad141a4e08b8485186e2bd3d7aa
