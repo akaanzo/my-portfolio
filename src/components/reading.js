@@ -9,10 +9,10 @@ function Reading() {
             wide
             leftColumn={<SectionHeading>Interesting Reading</SectionHeading>}
             rightColumn={
-                <span>
-                    <ol>Lorem Ipsum</ol>
-                    <ol>test</ol>
-                </span>
+                <p>
+                    <ul>Lorem Ipsum</ul>
+                    <ul>test</ul>
+                </p>
             }
         />
     )

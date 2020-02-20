@@ -150,6 +150,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     background: rgba(0, 125, 255, .99);
     color: white;
   }
+
+  .copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
 `
 
 export default GlobalStyle
