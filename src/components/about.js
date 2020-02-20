@@ -36,16 +36,6 @@ function About() {
           <p>
            After my bachelor degree I've felt the need to create my own portfolio to show you my projects (and not). Almost my entire projects are uploaded on <a href="https://github.com/anzo559" target="_blank">my GitHub</a> (some of these are stacked on <a href="https://osf.io" target="_blank">OSF - Open Science Framework</a>).
           </p>
-          {/*<p>
-            Currently I'm designing the future of medical infrastructure at{' '}
-            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
-            festivals with <Link to="/kellerkind">Kellerkind</Link>.
-          </p>
-          <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, climbing and riding
-            all kinds of boards on roads, water and snow.
-          </p>
-          */}
         </Fragment>
       }
     />

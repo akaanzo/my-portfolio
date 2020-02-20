@@ -34,7 +34,7 @@ class GlobalWrapper extends React.Component {
           />
           <meta
             property="og:image"
-            content="https://www.gabrieladorf.com/static/kellerkindCover-14f87246d1614ff1cf339940bdc58186.jpg"
+            content=""
           />
           <meta property="og:description" content="Matteo Franzoi's projects" />
           <meta property="og:type" content="website" />

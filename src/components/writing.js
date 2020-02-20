@@ -4,10 +4,10 @@ import TwoColumns from 'components/twoColumns'
 import Project from 'components/project'
 import SectionHeading from 'components/sectionHeading'
 
-import ScenographicsLogo from 'img/scenographicslogo'
+import WritingLogo from 'img/writing'
 
-const ScenographicsLink = (
-  <a href="http://medium.com/scenographics">Read More on Medium ↗</a>
+const WritingLink = (
+  <p>Read More on <a href="https://writing.matteofranzoi.me">https://writing.matteofranzoi.me</a></p>
 )
 
 function Writing() {
@@ -17,10 +17,10 @@ function Writing() {
       leftColumn={<SectionHeading>Writing</SectionHeading>}
       rightColumn={
         <Project
-          logo={ScenographicsLogo()}
-          title="Scenographics"
-          abstract="Interview series with creative people within the festival scene. (German only)"
-          link={ScenographicsLink}
+          logo={WritingLogo()}
+          title="Writing"
+          abstract="What I wrote (italian lang) past year on my old webpage."
+          link={WritingLink}
         />
       }
     />

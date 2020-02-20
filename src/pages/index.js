@@ -8,6 +8,7 @@ import About from 'components/about'
 import Work from 'components/work'
 import Other from 'components/other'
 import Writing from 'components/writing'
+import Reading from 'components/reading'
 import Footer from 'components/footer'
 
 //import DarkModeToggle from 'components/handleTheme'
@@ -27,9 +28,12 @@ export default class App extends React.Component {
         <Section >
           <Other />
         </Section>
-{/*        <Section>
-         <Writing />
-        </Section> */}
+        <Section>
+          <Writing />
+          {/* <Section>
+            <Reading />
+          </Section> */}
+        </Section>
         <Footer />
       </GlobalWrapper>
     )
