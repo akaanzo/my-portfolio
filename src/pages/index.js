@@ -38,7 +38,7 @@ export default class App extends React.Component {
         </Section>
         <Footer />
         <CookieConsent
-          location="top"
+          location="bottom"
           buttonText="I Accept"
           cookieName="myCookie"
           style={{ background: "#3B3E48", fontSize: "16px", color: "#E8EEF2"}}
