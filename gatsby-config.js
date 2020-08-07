@@ -35,6 +35,9 @@ module.exports = {
       storageKey: "darkMode",
       minify: true,
     },
-  }
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+  },
   ],
 }
