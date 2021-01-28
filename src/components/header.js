@@ -181,7 +181,7 @@ class Header extends React.Component {
           {!this.props.article && (
             <Name article={this.props.article}>Matteo Franzoi</Name>
           )}
-          {!this.props.article && <Role>Civil Engineering Student</Role>}
+          {!this.props.article && <Role>Structural Engineering Student</Role>}
         </LogoWrapper>
         <div>
           <SocialLinks article={this.props.article}>
