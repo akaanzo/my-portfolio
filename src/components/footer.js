@@ -21,7 +21,7 @@ function Footer() {
       <FooterText>
         This page is open source and based on <a href="https://github.com/gabdorf/gabriel-adorf-portfolio">Gabriel Adorf Portfolio</a>
         <br/>Built with ♥ with <a href="https://gatsbyjs.org" target="_blank">Gatsby</a>
-        <br /><span class="copyleft">&copy;</span> 2020 Matteo Franzoi
+        <br /><span class="copyleft">&copy;</span> 2020-2021 Matteo Franzoi
         {/*<a href="/imprint">Imprint</a>*/}
       </FooterText>
     </Section>
