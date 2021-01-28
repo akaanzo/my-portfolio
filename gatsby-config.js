@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Matteo Franzoi`,
   },
-  plugins: ['gatsby-plugin-dark-mode'],
+  //plugins: ['gatsby-plugin-dark-mode'],
   plugins: [    
     {
       resolve: 'gatsby-plugin-root-import',
@@ -36,8 +36,8 @@ module.exports = {
       minify: true,
     },
   },
-  {
-    resolve: `gatsby-plugin-manifest`,
-  },
+ // {
+   // resolve: `gatsby-plugin-manifest`,
+  //},
   ],
 }
