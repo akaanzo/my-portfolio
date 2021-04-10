@@ -19,7 +19,7 @@ function Writing() {
         <Project
           logo={WritingLogo()}
           title="Writing"
-          abstract="What I wrote (italian lang) past year on my old webpage."
+          abstract="What I wrote (italian language) past years on my old webpage."
           link={WritingLink}
         />
       }

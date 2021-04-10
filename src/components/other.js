@@ -26,25 +26,26 @@ function Other() {
           <Project
           logo={OldWebPageLogo()}
           title="My Previous Web Page"
-          abstract="Lorem Ipsum"
+          abstract="Source code of writing.matteofranzoi.me."
           link={OldWebPageLink}
           />
           <Project
             logo={PanizaAcademyLogo()}
             title="Paniza Academy Website"
-            abstract="Lorem Ipsum"
+            abstract="Source code of paniza.academy website."
             link={PanizaAcademyLink}
           />
           <Project
           logo={RopeLogo()}
           title="My Bachelor Thesis: theory of the wire rope"
-          abstract="Lorem Ipsum"
+          abstract="History and development of the wire rope theory and its applications on civil engineering field (specifically on bridges). This report contains the mathematical proof of wire rope theory (based on the hypothesis of negligible bending stiffness) for a parabolic rope element and for the catenary, and differences between these two.
+          Report has been written in LaTeX (and TiKZ for the images), so the repository contains principally TeX code."
           link={RopeLink}
           />
           <Project
             logo={UrbanLogo()}
             title="Urban Planning for Engineers "
-            abstract="Lorem Ipsum"
+            abstract="Notes on urban planning (only italian language)."
             link={UrbanLink}
           />
         </Fragment>
