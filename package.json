@@ -17,6 +17,7 @@
     "gatsby-plugin-use-dark-mode": "^1.1.2",
     "lodash": "^4.17.20",
     "node": "^13.5.0",
+    "postcss": "^8.4.5",
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-cookie-consent": "^3.0.0",
