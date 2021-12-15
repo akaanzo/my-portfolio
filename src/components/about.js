@@ -34,7 +34,7 @@ function About() {
             Hi. My name's Matteo, a master's civil engineering student based in Trento (🇮🇹 Italy). I'm in love with all about technology and code. 
           </Big>
           <p>
-           After my bachelor degree I've felt the need to create my own portfolio to show you my projects (and not). Almost my entire projects are uploaded on <a href="https://github.com/anzo559" target="_blank">my GitHub</a> (some of these are stacked on <a href="https://osf.io" target="_blank">OSF - Open Science Framework</a>).
+           After my bachelor degree I've felt the need to create my own portfolio to show you my projects (and not). Almost my entire projects are uploaded on <a href="https://github.com/anzo559" target="_blank">my GitHub</a> (some of these are stacked on <a href="https://osf.io/368pj/" target="_blank">OSF - Open Science Framework</a>).
           </p>
         </Fragment>
       }
