@@ -21,12 +21,12 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: '',
-      },
-    },
+    //{
+    //  resolve: `gatsby-plugin-google-analytics`,
+    //  options: {
+    //   trackingId: '',
+    //  },
+    //},
     //{
     //resolve: "gatsby-plugin-use-dark-mode",
     //options: {

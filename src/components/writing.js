@@ -2,25 +2,23 @@ import React from 'react'
 
 import TwoColumns from 'components/twoColumns'
 import Project from 'components/project'
-import SectionHeading from 'components/sectionHeading'
+import SectionHeadingLink from 'components/sectionHeadingLink'
 
 import WritingLogo from 'img/writing'
 
-const WritingLink = (
-  <p>Read More on <a href="https://writing.matteofranzoi.me">https://writing.matteofranzoi.me</a></p>
-)
+const WritingLink = "https://writing.matteofranzoi.me"
 
 function Writing() {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Writing</SectionHeading>}
+      leftColumn={<SectionHeadingLink link={WritingLink}>Writing</SectionHeadingLink>}
       rightColumn={
         <Project
           logo={WritingLogo()}
           title="Writing"
-          abstract="What I wrote (italian language) past years on my old webpage."
-          link={WritingLink}
+          abstract="What I wrote (italian language only) on my old webpage."
+          link={<p>Read more on <a href="https://writing.matteofranzoi.me">writing.matteofranzoi.me</a></p>}
         />
       }
     />

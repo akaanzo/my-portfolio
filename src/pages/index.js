@@ -8,6 +8,7 @@ import About from 'components/about'
 import Work from 'components/work'
 import Other from 'components/other'
 import Writing from 'components/writing'
+import Underline from 'components/underline'
 //import Reading from 'components/reading'
 import Footer from 'components/footer'
 import CookieConsent from "react-cookie-consent";
@@ -35,6 +36,9 @@ export default class App extends React.Component {
           {/* <Section>
             <Reading />
           </Section> */}
+        </Section>
+        <Section >
+          <Underline />
         </Section>
         <Footer />
         <CookieConsent

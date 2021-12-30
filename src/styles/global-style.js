@@ -146,6 +146,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     }
   }
 
+  .title-link {
+    text-decoration: line-through;
+    &:visited {
+      color: ${color.grey900};
+    }
+    &:active {
+      color: ${color.blue500};
+    }
+    &:hover {
+      color: ${color.blue500};
+    }
+    :focus {
+      outline: ${props => (props.displayOutlines ? '' : 'none')};
+    }
+  }
+
   ::selection {
     background: rgba(0, 125, 255, .99);
     color: white;
@@ -155,6 +171,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     display:inline-block;
     transform: rotate(180deg);
   }
+
+
 `
 
 export default GlobalStyle
